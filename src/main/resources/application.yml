@@ -12,24 +12,3 @@ spring:
 server:
   servlet:
     context-path: /api
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
-  info:
-    build:
-      enabled: true
-    env:
-      enabled: true
-  endpoint:
-    health:
-      show-details: always
-
-info:
-  application:
-    name: positions
-    version: 1.0.1
-    maintainer:
-      name: achille
-      email: achille.mbougueng@chilo.tech
